@@ -1,0 +1,47 @@
+# 🛡️ Práctica de Ciberseguridad: Lógica de Detección en Python
+
+Este repositorio contiene la implementación práctica de un algoritmo básico de ciberseguridad para la detección de enlaces sospechosos (phishing).
+
+---
+
+## 📌 Objetivos de la Práctica
+
+* Comprender la diferencia conceptual y operativa entre distintas amenazas digitales.
+* Analizar cadenas de texto y aplicar lógica condicional en Python para detectar posibles riesgos.
+* Documentar y versionar el código utilizando Git y GitHub.
+
+---
+
+## 📁 Contenido del Repositorio
+
+### anti_phishing.py
+
+Simulador de análisis de URLs mediante reglas heurísticas para la detección de posibles intentos de phishing.
+
+### Funcionalidades
+
+- Detecta palabras clave sospechosas en URLs.
+- Analiza enlaces de forma automática.
+- Muestra alertas cuando identifica patrones asociados a phishing.
+
+### Ejemplos Analizados
+
+- https://mi-banco-seguro.com/login-verify?user=123
+- https://www.google.com
+
+---
+
+## 🚀 Cómo ejecutar
+
+1. Tener Python instalado.
+2. Descargar el archivo `anti_phishing.py`.
+3. Ejecutar:
+
+```bash
+python anti_phishing.py
+```
+
+---
+
+## 👨‍💻 Autor
+Práctica académica de GitHub y Python.
